@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8"/>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="box">
+      <h1> Currency Converter </h1>
+      <div id="input-field">
+        <div id="amount">
+          <label>Amount:</label>
+          <input type="text" id="entered-amount" placeholder="0"></input>
+        </div>
+
+        <div id="original-currency">
+          <label for="original-currency-type">From:</label>
+            <select id="original-currency-type">
+            <option value="CAD" data-cur="Canadian Dollar">CAD</option>
+            <option value="CNY" data-cur="Chinese Yuan">CNY</option>
+            <option value="EUR" data-cur="Euro">EUR</option>
+            <option value="GBP" data-cur="British Pound">GBP</option>
+            <option value="HKD" data-cur="Hong Kong Dollar">HKD</option>
+            <option value="JPY" data-cur="Japanese Yen">JPY</option>
+            <option value="USD" data-cur="United States Dollar">USD</option>
+            <option value="MXN" data-cur="Mexican Peso">MXN</option>
+            <option value="AUD" data-cur="Australian Dollar">AUD</option>
+            </select>
+        </div>
+
+        <div id="converted-currency">
+          <label for="converted-currency-type">To:</label>
+            <select id="converted-currency-type">
+            <option value="CAD" data-cur="Canadian Dollar">CAD</option>
+            <option value="CNY" data-cur="Chinese Yuan">CNY</option>
+            <option value="EUR" data-cur="Euro">EUR</option>
+            <option value="GBP" data-cur="British Pound">GBP</option>
+            <option value="HKD" data-cur="Hong Kong Dollar">HKD</option>
+            <option value="JPY" data-cur="Japanese Yen">JPY</option>
+            <option value="USD" data-cur="United States Dollar">USD</option>
+            <option value="MXN" data-cur="Mexican Peso">MXN</option>
+            <option value="AUD" data-cur="Australian Dollar">AUD</option>
+            </select>
+        </div>
+
+        <button class="button">Convert</button>
+
+      </div>
+
+      <div id="output-field">
+        <div id="result-amount">Result</div>
+
+      </div>
+    </div>
+      <script type="text/javascript" src="main.js"></script>
+  </body>
+
+
+</html>
